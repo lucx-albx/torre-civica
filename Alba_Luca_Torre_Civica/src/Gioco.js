@@ -137,7 +137,7 @@ const Gioco = () => {
 
 					<div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-3 box-domanda3'>
 						<h4>Domanda 3:</h4>
-						<p>Quale ombra viene ripecchiata, e su cosa?</p>
+						<p>Quale ombra viene rispecchiata, e su cosa?</p>
 						<div className="form-check">
 							<input name="gruppo3" type="radio" id="radio1" /> L'ombra della torre civica viene rispecchiata sul campanile
 						</div>
@@ -217,7 +217,7 @@ const Gioco = () => {
 
 					<div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-3 mb-xl-3 mb-lg-3 mb-md-3 box-domanda7'>
 						<h4>Domanda 7:</h4>
-						<p>Che giorno e mese puo avvenire questo fenomeno?</p>
+						<p>Che giorno e mese può avvenire questo fenomeno?</p>
 						<div className="form-check">
 							<input name="gruppo7" type="radio" id="radio1" /> Il 22/10
 						</div>
