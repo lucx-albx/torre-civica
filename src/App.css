@@ -1,0 +1,30 @@
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #576064;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    width: 2px;
+}
+
+::-webkit-scrollbar {
+    height: 5px!important;
+}
+
+body, html{
+    background-color: #323b41!important;
+    overflow-x:hidden;
+    width: 100%!important;
+	color: white;
+}
+
