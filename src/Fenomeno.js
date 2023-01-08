@@ -3,8 +3,12 @@ import './Fenomeno.css'
 import NoShwTower from './Image/NoOmbraTorre.JPG'
 import YesShwTower from './Image/Ombra_Torre_Civica.JPG'
 import GilettaImage from './Image/Franco_Giletta.jpg'
+import Video_Fenomeno from './Video/Fenomeno_Video.mp4'
 
 const Fenomeno = () => {
+
+	window.scrollTo(0,0);
+
 	return (
 		<div className='mt-6'>
 			<h1 className='d-flex justify-content-center text-center' data-aos="fade-down">Spiegazione Fenomeno</h1>
@@ -15,7 +19,7 @@ const Fenomeno = () => {
 					si verifica una perfetta proiezione dell'ombra dell'antica Torre Civica sul Campanile della Chiesa di San Giovanni. È un'autentica "performance" 
 					di architetture che, grazie alla luce solare, diventano dinamiche: il Campanile gotico di San Giovanni "abbraccia", fino a contenere perfettamente 
 					in tutte le sue parti, l'ombra della Torre rinascimentale. Chi furono i committenti e gli artefici delle due meravigliose costruzioni? Ma, soprattutto, 
-					l'effetto è puramente casuale o è voluto? Per la soluzione dell'enigma, <strong>Franco Giletta</strong> ci propone all'interno del suo libro 
+					l'effetto è puramente casuale o è voluto? Per la soluzione dell'enigma, <a href="#Giletta"><strong>Franco Giletta</strong></a> ci propone all'interno del suo libro 
 					un'articolata ed approfondita analisi del prodigioso fenomeno che diventa occasione per un itinerario tra monumenti e opere d'arte saluzzesi. 
 					Nell'epoca della riproducibilità questo evento, che per tipologia e perfezione rappresenta un fenomeno in Europa, diviene ogni anno un turistico 
 					richiamo iconico all'arte medievale e rinascimentale di Saluzzo, la cui bellezza non finirà mai di meravigliare. Per questo motivo il 22/12/2022 ci
@@ -34,8 +38,10 @@ const Fenomeno = () => {
 					<img src={YesShwTower} alt="Torre Dopo" className='img-fluid img-thumbnail'/>
 					<p>Campanile durante il fenomeno, purtroppo il tempo non era dalla nostra parte e non si rispecchia perfettamente l'ombra</p>
 				</div>
+				
 			</div>
 
+			<a name="Giletta"/>
 			<h1 className='d-flex justify-content-center text-center mt-5' data-aos="flip-right">Chi è Franco Giletta?</h1>
 
 			<div className='row align-items-center justify-content-center'>
@@ -56,6 +62,17 @@ const Fenomeno = () => {
 
 				<div className='col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 d-flex justify-content-center mt-3 mt-sm-3 mt-xl-0 mt-lg-0 mt-md-0' data-aos="zoom-in-up">
 					<img src={GilettaImage} alt="Torre Dopo" className='img-fluid img-thumbnail'/>
+				</div>
+			</div>
+
+			<h1 className='d-flex justify-content-center text-center mt-5 mb-3' data-aos="fade-down">Video del Fenomeno</h1>
+			
+			<div className='row justify-content-center'>
+				<div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center' data-aos="zoom-in-right">
+					<video className="embed-responsive box-video" controls loop muted>
+						<source src={Video_Fenomeno} type="video/mp4"/>
+						Il tuo browser non supporta il video tag
+					</video>
 				</div>
 			</div>
 

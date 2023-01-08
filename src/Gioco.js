@@ -3,6 +3,7 @@ import './Gioco.css'
 
 const Gioco = () => {
 	const [Score, setScore] = useState(0)
+	window.scrollTo(0,0)
 
 	const Check_Answer =()=>{
 		let Final_Score = 0
