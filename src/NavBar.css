@@ -1,0 +1,9 @@
+.header{
+    background-color: #1c2226;
+    padding: 15px;
+    box-shadow:  3px 3px 3px 3px #515c63;
+}
+
+.header-text-button{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black!important;
+}
