@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/torre-civica/static/css/main.5b120221.css",
+    "main.js": "/torre-civica/static/js/main.dceef737.js",
+    "static/js/787.a627c6c7.chunk.js": "/torre-civica/static/js/787.a627c6c7.chunk.js",
+    "static/media/Fenomeno_Video.mp4": "/torre-civica/static/media/Fenomeno_Video.64812f9eec0d13a73b32.mp4",
+    "static/media/Torre_Civica1.JPG": "/torre-civica/static/media/Torre_Civica1.99d6148b3f1c32a2902f.JPG",
+    "static/media/NoOmbraTorre.JPG": "/torre-civica/static/media/NoOmbraTorre.d5dba8852aadbd326816.JPG",
+    "static/media/Ombra_Torre_Civica.JPG": "/torre-civica/static/media/Ombra_Torre_Civica.05ddc27ae919813d9d68.JPG",
+    "static/media/Franco_Giletta.jpg": "/torre-civica/static/media/Franco_Giletta.12c12d2c48b814a1a232.jpg",
+    "index.html": "/torre-civica/index.html",
+    "main.5b120221.css.map": "/torre-civica/static/css/main.5b120221.css.map",
+    "main.dceef737.js.map": "/torre-civica/static/js/main.dceef737.js.map",
+    "787.a627c6c7.chunk.js.map": "/torre-civica/static/js/787.a627c6c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b120221.css",
+    "static/js/main.dceef737.js"
+  ]
+}
